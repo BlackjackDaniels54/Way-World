@@ -1,0 +1,53 @@
+section.immigration_programs_content {
+    margin: 50px 0 0 0;
+}
+
+.immigration_programs_content .display-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 120px 20px;
+    justify-content: space-around;
+}
+.immigration_programs_content .main_title {
+    margin: 0 0 80px 13px;
+    
+    color: #000;
+    letter-spacing: 1px;
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+}
+.immigration_programs_content .display-grid .grid-item {
+    padding: 15px;
+    box-shadow: 0px 0px 25px 2px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+.immigration_programs_content .display-grid .grid-item:nth-child(8) {
+    padding: 0;
+    text-align: right;
+    box-shadow: none;
+
+}
+.immigration_programs_content .display-grid .grid-item img {
+    max-width: 500px;
+    margin: 0 0 20px 0;
+}
+.immigration_programs_content .display-grid .grid-item h3 {
+    max-width: 500px;
+    margin: 0 0 10px 0;
+    font-size: 25px;
+}
+.immigration_programs_content .display-grid .grid-item h3:hover {
+    opacity: 0.8;
+}
+.immigration_programs_content .display-grid .grid-item a {
+    text-decoration: none;
+    color: #000;
+    
+    font-weight: 400;
+}
+.immigration_programs_content .display-grid .grid-item .first_text, .second_text, .third_text {
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+}
+

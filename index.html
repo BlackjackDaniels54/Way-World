@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Way World - Гражданство ЕС, ВНЖ и другие миграционной вопросы</title>
+    <meta name="description" content="Мы получить получить Гражданство и ВНЖ по всему миру. Индивидуальные решения. Полное сопровождение. Опыт работы более 25 лет"/>
+    <link rel="stylesheet" href="src/css/bootstrap.css">
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/css/media.css">
+
+    <link rel="shortcut icon" href="src/img/icons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="src/img/icons/favicon.ico" type="image/x-icon">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+</head>
+<body>
+    <header class="header element-animation-up-to-down">
+        <div class="top-head gray_bg_color">
+            <div class="container head_content">
+                <ul class="left">
+                    <li class="left-item"><img src="src/img/icons/chezh_flag.png" alt=""></li>
+                    <li class="left-item phone"> <a href="tel:+420721482050">+420 721 482 050</a></li>
+                    <li class="left-item"><a href="viber://chat?number=+420721482050"><img src="src/img/icons/viber.png" alt=""></a></li>
+                    <li class="left-item"><a href="https://wa.me/420721482050"><img src="src/img/icons/whatsapp.png" alt=""></a></li>
+                    <li class="left-item"><a href="https://t.me/world_pasport"><img src="src/img/icons/telegram.png" alt=""></a></li>
+                </ul>
+                <ul class="right">
+                    <li class="right-item"><img src="src/img/icons/e_mail.png" alt=""></li>
+                    <li class="right-item email"><a href="mailto:info@waytotheworld.org">info@waytotheworld.org</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>    
+        <nav id="navbar" class="navbar sticky-top navbar-expand-lg navbar-light bg_white  element-animation-up-to-down">
+            <div class="container ">
+              <a class="navbar-brand" href="#">WAY WORLD</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link  " aria-current="page" href="pages/immigration_programs.html">Иммиграционные программы</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="pages/euro_citizen.html">Гражданство ЕС</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="pages/about_company.html">О компании</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link " href="pages/about_company.html#contacts">Контакты</a>
+                  </li>
+                </ul>
+              </div>
+              
+            </div>
+            
+          </nav>
+        <div class="line_block"></div>
+        <div class="introduction">
+            <div class="bgc_img">
+                  <img src="src/img/bence-boros-JazIGJ8_iw4-unsplash.jpg" alt="" style="filter:brightness(0.7)">
+            </div>
+            <div class="content container" >
+                <div class="flex-center">
+                    <div class="header_text element-animation-left-to-right" > 
+                      <h1 class="h1"> <b>Way to the  World</b> - решение любой Вашей миграционной задачи!</h1>
+                      <h2 class="h2">Живите, работайте, учитесь и инвестируйте в странах Европы и Мира</h2>
+                    </div>
+                </div>  
+                <div class="header_form element-animation-right-to-left">
+                  <form id="contact_form" method="post" action="handler.php" role="form">
+                    <div class="messages"></div>
+                    <p class="title">Получите консультацию, оставив заявку</p> 
+                    <div class="mb-3">
+                      <i class="fa-solid fa-circle-user"></i>
+                      <input type="text" name="name" class="form-control gray_bg_color" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваше имя" required  minlength="2" maxlength="30">
+                      
+                    </div>
+                    <div class="mb-3">
+                      <i class="fa-solid fa-envelope"></i>
+                      <input type="email" name="email" class="form-control gray_bg_color" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваш E-mail" required maxlength="30">
+                      
+                    </div>
+                    <div class="mb-3">
+                      <i class="fa-solid fa-phone"></i>
+                      <input type="text" name="phone" class="form-control gray_bg_color" id="exampleInputPassword1" placeholder="Ваш телефон" required>
+                    </div>
+
+                    <div class="mb-3">
+                      <div class="g-recaptcha" data-sitekey="6Ld8QUohAAAAAA7nnit6LcEEHPjnGUrrTkWWwdqd"></div>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn_bg_green" style="width: 100%;">Отправить</button>
+                  </form>
+                </div>
+        </div>
+        </div>
+
+
+    <section class="section_information container">
+        <h1 class="h1 element-animation-down-to-up">Как мы работаем</h1>
+        <div class="how-do-we-work">
+          
+              <div class="img first flex-item element-animation-down-to-up">
+                  <img src="src/img/icons/Page-1.png" alt="">
+              </div>
+              <div class="h1 first flex-item element-animation-down-to-up">Подбор миграционной программы</div>
+              <div class="desc-text first flex-item element-animation-down-to-up">Специалисты Way to the World подберут программу иммиграции под Ваши цели и потребности.</div>
+
+              <div class="img second flex-item element-animation-down-to-up">
+                <img src="src/img/icons/hand_help.png" alt="">
+              </div>
+              <div class="h1 second flex-item element-animation-down-to-up" >Полное сопровождение</div>
+              <div class="desc-text second flex-item element-animation-down-to-up">Юристы компании сопроводят Вас от первого звонка до получения желаемого результата. На всех этапах для Вас будет доступна юридическая поддержка.</div>
+
+              <div class="img third flex-item element-animation-down-to-up">
+                <img src="src/img/icons/passport 1.png" alt="">
+              </div> 
+              <div class="h1 third flex-item element-animation-down-to-up">Поддержка на месте</div>
+              <div class="desc-text  third flex-item element-animation-down-to-up">Мы поможем Вам оформить все необходимые внутренние документы (после оформления гражданства).</div>
+          
+        </div>
+
+
+
+
+          <hr>
+
+        <h2 class="h2 element-animation-down-to-up">Про Way to the World</h2>
+        <div class="about-program">
+
+          <div class="img-one grid-item item1 element-animation-left-to-right">
+            <img src="src/img/banner/logo.png" alt="">
+          </div>
+          <div class="tit grid-item item2 element-animation-down-to-up">
+            Опыт работы
+          </div>
+          <div class="description grid-item item3 element-animation-right-to-left">
+            Более 25 лет безоговорочного лидерства на миграционном рынке СНГ, десятки тысяч довольных клиентов, получивших желаемый результат.
+          </div>
+          <div class="tit grid-item item4 element-animation-down-to-up">
+            Экспертность
+          </div>
+          <div class="description grid-item item5 element-animation-right-to-left">
+            В Way to the World работают только лучшие миграционные юристы. А ведущие сотрудники являются  экспертами в своем деле.
+          </div>
+
+
+
+
+          <div class="img-two grid-item item6 element-animation-left-to-right">
+            <img src="src/img/banner/IMG_1004 1.png" alt="">
+          </div>
+          <div class="tit grid-item item7 element-animation-up-to-down">
+            Индивидуальные решения
+          </div>
+          <div class="description grid-item item8 element-animation-right-to-left">
+            Мы предлагаем уникальные решения для каждого клиента, в зависимости от ключевых целей и потребностей.
+          </div>
+          <div class="tit grid-item item9 element-animation-up-to-down">
+            Направление работы
+          </div>
+          <div class="description grid-item item10 element-animation-right-to-left">
+            Оформление гражданства стран всего мира. Ежегодно с нами оформляют гражданство более 5 000 клиентов.
+          </div>
+        </div>
+
+
+    </section>
+
+  
+
+    
+
+
+  <div class="bgc-color-gradient">
+    <section class="popular_programs ">
+      <!-- <div class="bg_img_popular_programs">
+          <img src="src/img/rabstol_net_flags_67 1.jpg" alt="">
+      </div> -->
+      <div class="content container">
+       
+        
+        <h1 class="h1 element-animation-down-to-up">Популярные программы иммиграции</h1>
+        <div class="display_grid">
+          <a href="#" id = "grid-item-one"class="grid_item element-animation-left-to-right ">
+            <img src="src/img/pexels-photo-771023 1.png" class="chezhskiy" alt="">
+            <div class="block">
+              <p class="mini-title">Программа:</p>
+              <img src="src/img/icons/chezh_crest1.png" alt="">
+            </div>
+            <div class="text">Гражданство Чехии</div>
+          </a>
+          <a href="#" id = "grid-item-two" class="grid_item element-animation-down-to-up ">
+            <img src="src/img/pexels-photo-771023 2.png" class="romania" alt="">
+            <div class="block">
+              <p class="mini-title">Программа:</p>
+              <img src="src/img/icons/chezh_crest2.png" alt="">
+            </div>
+            <div class="text">Гражданство Румынии</div>
+          </a>
+          <a href="#" id = "grid-item-three" class="grid_item element-animation-right-to-left ">
+            <img src="src/img/pexels-photo-771023 3.png" class="poland" alt="">
+            <div class="block">
+              <p class="mini-title">Программа:</p>
+              <img src="src/img/icons/chezh_crest3.png" alt="">
+            </div>
+            <div class="text">Карта Поляка</div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+    <div class="line_block " style="position: relative; top: 117px; left: 0;"></div>
+  <footer class="footer">
+    <div class="footer_first_content">
+        
+        <div class="content container" >
+          
+            <div class="footer_text element-animation-left-to-right"> 
+              <div class="h1">Откройте для себя новые возможности для успешной жизни!</div>
+              <div class="h2">Мир без границ с <br> Way to the World</div>
+            </div>
+           
+        <div class="footer_form element-animation-right-to-left">
+          <form id="contact_form" method="post" action="handler.php" role="form">
+            <div class="messages"></div>
+            <p class="title">Получите консультацию, оставив заявку</p> 
+            <div class="mb-3">
+              <i class="fa-solid fa-circle-user"></i>
+              <input type="text" name="name" class="form-control gray_bg_color" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваше имя" required  minlength="2" maxlength="30">
+              
+            </div>
+            <div class="mb-3">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="email" name="email" class="form-control gray_bg_color" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваш E-mail" required maxlength="30">
+              
+            </div>
+            <div class="mb-3">
+              <i class="fa-solid fa-phone"></i>
+              <input type="text" name="phone" class="form-control gray_bg_color" id="exampleInputPassword1" placeholder="Ваш телефон" required>
+            </div>
+
+            <div class="mb-3">
+              <div class="g-recaptcha" data-sitekey="6Ld8QUohAAAAAA7nnit6LcEEHPjnGUrrTkWWwdqd"></div>
+            </div>
+            
+            <button type="submit" class="btn btn-primary btn_bg_green" style="width: 100%;">Отправить</button>
+          </form>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer_second_content ">
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-3 col-md-6">
+              <div class="footer-info">
+                  <h1 class="main_title element-animation-down-to-up">WAY WORLD</h1>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links citizenship element-animation-down-to-up">
+            <h4>Популярные услуги</h4>
+            <ul>
+                <li><a href="#"><img src="src/img/icons/chezh_flag.png" alt="">Гражданство Чехии</a></li>
+                <li><a href="#"><img src="src/img/icons/romania_logo.png" alt="">Гражданство Румынии</a></li>
+                <li><a href="#"><img src="src/img/icons/euro_logo.png" alt="">Гражданство ЕС</a></li>
+                <li><a href="pages/imigration-progs/map_poland.html"><img src="src/img/icons/poland_logo.png" alt="">Карта Поляка</a></li>
+                <li><a href="#"><img src="src/img/icons/bolgaria_logo.png" alt="">Гражданство Болгарии</a></li>
+            </ul> 
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links about element-animation-down-to-up">
+              <h4>О компании</h4>
+              <ul>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">О нас</a></li>
+              </ul>  
+          </div>
+          <div class="col-lg-3 col-md-6 footer-cooporated element-animation-down-to-up">
+              <h4>In cooperated with</h4>
+              <a href="https://bitspsltd.co.uk/"><img src="src/img/icons/logo result white edition.png" alt=""></a>
+              
+          </div>
+      </div>
+  </div>
+  </div>
+</div>
+    <div class="footer_third_content">
+      <div class="content container">
+        <a class="element-animation-down-to-up" href="#">Way to the World, 2006-2022 © Все права защищены </a>
+        <a class="element-animation-down-to-up" href="#">Отказ от ответственности</a>
+        <a class="element-animation-down-to-up" href="#">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+  
+  <div id="modal-content" class="modal-window ">
+    <div class="text-img">
+      <div class="img">
+        <img src="src/img/pexels-alex-azabache-3182530.jpg" alt="">
+      </div>
+      <div class="text">
+        <h2 class="modal-h2">ГРАЖДАНСТВО ЕС по упрощённой процедуре</h2>
+        <p class="modal-p">Станьте владельцем второго паспорта одной из стран Евросоюза по специальной программе</p>
+      </div>
+    </div>  
+    <div class="modal-form">
+      <div id="modal-close" class="close-x">
+         <a href="" class="close-link">X</a>
+      </div>
+      <form id="contact_form" method="post" action="handler.php" role="form">
+        <div class="messages"></div>
+        <h1 class="title">Заполните заявку</h1>
+        <p class="text-title">И получите бесплатную консультацию с миграционным юристом </p> 
+        <div class="mb-3">
+          <i class="fa-solid fa-circle-user"></i>
+          <input type="text" name="name" class="form-control gray_bg_color" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваше имя" required  minlength="2" maxlength="30">
+          
+        </div>
+        <div class="mb-3">
+          <i class="fa-solid fa-envelope"></i>
+          <input type="email" name="email" class="form-control gray_bg_color" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваш E-mail" required maxlength="30">
+          
+        </div>
+        <div class="mb-3">
+          <i class="fa-solid fa-phone"></i>
+          <input type="text" name="phone" class="form-control gray_bg_color" id="exampleInputPassword1" placeholder="Ваш телефон" required>
+        </div>
+
+        <div class="mb-3">
+          <div class="g-recaptcha" data-sitekey="6Ld8QUohAAAAAA7nnit6LcEEHPjnGUrrTkWWwdqd"></div>
+        </div>
+        
+        <button type="submit" class="btn btn-primary btn_bg_green" style="width: 100%;">Отправить</button>
+      </form>
+    </div>
+ </div>
+ <div id="gray-bg-color"class="bg-modal-color"></div>
+    <script src="src/js/bootstrap.min.js"></script> 
+    <script src="src/js/main.js"></script>  
+    </body>
+</html>

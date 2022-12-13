@@ -1,0 +1,209 @@
+.background-color-gradient {
+    background: linear-gradient(348deg, rgb(255 255 255 ) 50%, #bb0909  110%);
+    padding: 50px 0 50px 0;
+}
+.title-poland h1 {
+    max-width: 500px;
+    margin: 50px 0 0 0;
+}
+.title-poland p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 50px 0 0 0;
+    text-align: right;
+}
+section.main .map-flex-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0 80px 0;
+    position: relative;
+}
+
+
+section.main .map-flex-container .left-text-container .text-one, 
+section.main .map-flex-container .left-text-container .text-two {
+    max-width: 600px;
+    font-size: 18px;
+    font-weight: 400;
+}
+section.main .map-flex-container .right-icon-container img{
+    max-width: 550px;
+    padding: 0 50px 0 0;
+}
+
+section.main .advantages-program .h1 {
+    text-align: center;
+    margin: 65px 0 0 0;
+}
+section.main .advantages-program .grid-block-items {
+    margin: 70px 0 80px 0;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 50px 0;
+    justify-content: center;
+    
+}
+section.main .advantages-program .grid-block-items .grid-item {
+    display: flex;
+    max-width: 500px;
+}
+section.main .advantages-program .grid-block-items .grid-item > img {
+    width: 100px;
+    height: 110px;
+}
+section.main .advantages-program .grid-block-items .grid-item > p {
+    font-size: 18px;
+    padding: 0 0 0 90px;
+}
+section.main .about-program .h1 {
+    text-align: center;
+    margin: 65px 0;
+}
+section.main .about-program .flex-container,
+section.main .conditions-getting .flex-container
+{
+    display: flex;  
+    margin: 0 0 70px 0;
+}
+section.main .about-program .flex-container .flex-right,
+section.main .conditions-getting .flex-container .flex-right
+{
+    border-left: 2px solid rgb(160, 160, 160);
+    padding: 0 20px;
+}
+section.main .about-program .flex-container .flex-left,
+section.main .conditions-getting .flex-container .flex-left
+{
+    padding: 0 20px;
+}
+section.main .banner {
+    margin: 0 auto;
+    
+    max-width: 1000px;
+}
+section.main .banner > img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+section.main .conditions-getting .form {
+    max-width: 350px;
+    margin: 40px 0 0 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 16px 9px rgba(0,0,0,0.05);
+}
+section.main .conditions-getting .h1 {
+    text-align: center;
+    margin: 50px 0;
+}
+section.main .conditions-getting .form p{
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+    font-weight: 500;
+}
+section.main .conditions-getting .form .fa-solid {
+    top: 12px;
+    left: 6px;    
+    position: relative;
+    color: #000;
+}
+section.main .conditions-getting .form .fa-solid + input {
+    padding-left: 26px;
+    margin: 0;
+}
+section.main .conditions-getting .form input {
+    margin: -20px 0 0 0 !important;
+}
+
+
+@media (max-width:1100px) {
+    
+    section.main .map-flex-container .right-icon-container img{
+        max-width: 400px;
+        padding: 0 50px 0 0;
+    }
+    .title-poland p {
+        font-size: 16px; 
+        text-align: right;
+    }
+    section.main .map-flex-container .left-text-container .text-one, 
+    section.main .map-flex-container .left-text-container .text-two {
+    max-width: 600px;
+    font-size: 16px;
+    font-weight: 400;
+}
+ }
+ @media (max-width:800px) {
+    section.main .map-flex-container {
+        margin: 0;
+    }
+    .title-poland h1 {
+        margin: 0;
+    }
+    section.main .map-flex-container .right-icon-container {
+        position: absolute;
+        top: 0;
+        right: -55px;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    section.main .advantages-program .grid-block-items {
+        margin: 0 0 25px 0;
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        grid-gap: 30px 0;
+    }
+    section.main .advantages-program .grid-block-items .grid-item p{
+        font-size: 16px;
+    }
+    section.main .advantages-program .grid-block-items .grid-item:nth-child(2) p{
+        padding: 0 0 0 84px;
+    }
+    section.main .advantages-program .grid-block-items .grid-item:nth-child(4) p{
+        padding: 0 0 0 79px;
+    }
+    section.main .advantages-program .grid-block-items .grid-item:nth-child(6) p{
+        padding: 0 0 0 79px;
+    }
+ }
+
+@media (max-width:650px) {
+    section.main .about-program .flex-container,
+    section.main .conditions-getting .flex-container
+{
+    display: block;  
+    margin: 0 0 40px 0;
+}
+    section.main .about-program .flex-container .flex-left,
+    section.main .conditions-getting .flex-container .flex-left
+{
+    border-right: 2px solid rgb(160, 160, 160);
+    padding: 0 20px;
+}
+    section.main .advantages-program .h1,
+    section.main .about-program .h1,
+    section.main .conditions-getting .h1
+{
+    
+    margin: 45px 0 45px 0;
+}
+}
+ @media (max-width:450px) {
+    .navbar-brand {
+        font-size: 30px;   
+    }
+    section.main .advantages-program .grid-block-items .grid-item p{
+        padding: 0 0 0 76px;
+    }
+    section.main .advantages-program .grid-block-items .grid-item:nth-child(2) p{
+        padding: 0 0 0 70px;
+    }
+    section.main .advantages-program .grid-block-items .grid-item:nth-child(4) p{
+        padding: 0 0 0 65px;
+    }
+    section.main .advantages-program .grid-block-items .grid-item:nth-child(6) p{
+        padding: 0 0 0 65px;
+    }
+ }

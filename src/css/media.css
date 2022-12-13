@@ -1,0 +1,461 @@
+@media  (min-width: 1200px) and (max-width: 1600px) { 
+    .introduction .bgc_img img {
+        position: absolute;
+        width: 100%;
+        
+        top: 131px;
+        left: 0;
+        object-fit: cover;
+        z-index: -1;
+    }
+    .introduction .content .header_text .h1 {
+        font-size: 45px;   
+        /* margin: 70px 0 0 0; */
+        max-width: 70%;
+    }
+    .introduction .content .header_text .h2 {
+        font-size: 30px;
+        margin: 20px 0 0 0;
+        max-width: 70%;     
+    }
+    .introduction .header_form form {
+        position: relative;
+        top: 150px;
+        right: 0;
+        background-color: #fff;
+        padding: 35px;
+        min-width: 300px;
+    }
+}
+@media (max-width: 1200px) {
+    .section_information > .h1 {
+        margin: 150px 0 0 0;
+        
+    }
+}
+@media (max-width:1300px){
+    .introduction .bgc_img img {
+        
+        top: 131px !important;
+        
+    } 
+}
+@media (max-width:1370px){
+    .footer_second_content {
+        margin: -10px 0 0 0;
+        padding: 0 15px;
+    }
+    .footer_second_content .footer-links h4 {
+        margin: 30px 0 0 0;
+    }
+    .footer_second_content .footer-cooporated h4 {
+        margin: 30px 0 0 0;
+    }
+
+
+    .about_first_block .content .workers_block .workers_text_block { 
+        font-size: 16px;       
+    }
+    .about_first_block .content .workers_block .img img {
+        max-width: 400px;
+    }
+    
+    .about_first_block .content .banner_block .banner_text_block {
+        font-size: 16px;
+    }
+    .about_first_block .content .banner_block .img img {
+        max-width: 250px;
+        
+    }
+    .about_first_block .content .workers_block .workers_text_block {
+        max-width: 350px;
+    }
+    .about_first_block .content .banner_block .banner_text_block {
+        max-width: 350px;
+    }
+    .bgc-color-gradient {
+        padding: 20px 0 40px 0;
+    }
+    
+    
+}
+@media (max-width:1300px){
+    .navbar .nav-link {
+        font-size: 18px;
+    }
+    .navbar .oswald {
+        font-size: 30px !important;
+    }
+    .nav-item {
+        margin: 0 0 0 40px;
+        
+    }
+    .popular_programs .display_grid {
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+        grid-template-rows: repeat(1, auto);
+        grid-gap: 25px;
+        justify-content: center;
+    }
+    .popular_programs .h1 {
+        max-width: 100%;
+        text-align: center;
+        
+        font-weight: 400;
+        margin: 40px 0;
+        padding: 0;
+    }
+    .popular_programs .grid_item {
+        max-width: 100%;
+        
+    }
+    .popular_programs .bg_img_popular_programs img {
+        position: static;
+        margin: 20px 0 0 0;
+        opacity: 1;
+    }
+}
+@media ( max-width:1200px) {
+    .introduction .content {
+      display: block ;       
+     } 
+     .nav-item {
+        margin: 0 0 0 30px;
+        
+    }
+     .introduction .content .header_form {
+         display: flex;
+         justify-content: center;
+     }
+     .introduction .content .header_text{
+         text-align: center;
+         max-width: 300px;
+         
+         
+     }
+     .introduction .content .header_text .h1 {
+         font-size: 25px;
+         
+         margin: 70px 0 0 0;
+         max-width: 100%;
+     }
+     .introduction .content .header_text .h2 {
+         font-size: 20px;
+         margin: 20px 0 0 0;
+         max-width: 100%;
+    }
+     .flex-center {
+         display: flex;
+         justify-content: center;
+     }
+     .introduction .header_form form {
+        position: relative;
+        top: 50px;
+        right: 0;
+        background-color: #fff;
+        padding: 35px;
+    }
+    .introduction .bgc_img img {
+        position: absolute;
+        width: 100%;
+        
+        top: 160px;
+        left: 0;
+        object-fit: cover;
+        z-index: -1;
+    }
+    /*_______________________Footer______________________*/
+    footer .footer_first_content .content {
+        padding: 80px 20px;
+        display: block;
+    }
+    footer .footer_first_content .footer_text {
+        text-align: center;
+        
+    }
+    footer .footer_first_content .footer_text .h1 {
+        max-width: 100%;
+        font-size: 40px;
+    }
+    footer .footer_first_content .footer_text .h2 {
+        margin: 20px 0 0 0;
+        
+        
+        line-height: 150%; 
+    }
+    footer .footer_first_content .footer_form {
+        display: flex;
+        justify-content: center;
+        margin: 30px;
+    }
+
+
+ }
+ @media (max-width:1100px) {
+    .how_do_we_work {
+        grid-gap: 50px;
+    }
+    section.main .map-flex-container .right-icon-container img{
+        max-width: 400px;
+        padding: 0 50px 0 0;
+    }
+ }
+
+
+ @media (max-width:850px) {
+    .about_first_block .content .workers_block {
+        display: block;
+    }
+    .about_first_block .content .banner_block {
+        display: block;
+    }
+    .about_first_block .content .workers_block .img img {
+        max-width: 100%;
+    }
+    
+    .about_first_block .content .banner_block .banner_text_block {
+        font-size: 16px;
+    }
+    .about_first_block .content .banner_block .img img {
+        max-width: 250px;
+        
+    }
+    .about_first_block .content .workers_block .workers_text_block {
+        max-width: 100%;
+    }
+    .about_first_block .content .banner_block .banner_text_block {
+        max-width: 100%;
+    }
+    .contacts_block .contacts-grid {
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+        grid-gap: 30px 0;
+        margin: 70px 0 0 0;
+    }
+    .contacts_block .head {
+        padding: 0;
+    }
+    
+    
+ }
+
+
+ @media  (min-width: 700px) and (max-width: 1300px) { 
+    .introduction .bgc_img img {
+        position: absolute;
+        width: 100%;
+        
+        top: 138px;
+        left: 0;
+        object-fit: cover;
+        z-index: -1;
+    }
+}
+@media  (min-width: 700px) and (max-width: 1200px) { 
+    .introduction .bgc_img img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 138px;
+        left: 0;
+        object-fit: cover;
+        z-index: -1;
+    }
+}
+@media (max-width:1120px) {
+    .introduction .content .header_text .h1 {
+        margin: 50px 0 0 0;
+    }
+    .about_way_to_the_world {
+        margin: 50px 0 0 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, auto);
+        grid-gap: 80px ;   
+    }
+    .immigration_programs_content .display-grid {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        grid-gap: 40px 0;
+        justify-content: center;
+    }
+    .immigration_programs_content .display-grid .grid-item h3 {
+        max-width: 450px;    
+    }
+    .immigration_programs_content .display-grid .grid-item img {
+        max-width: 450px;
+    }
+} 
+@media (max-width:880px) {
+    .section_information .how-do-we-work .h1 {
+        font-size: 20px;
+    }
+    .section_information .about-program {
+        grid-gap: 20px 10px;
+    }
+    .section_information .about-program .tit {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .section_information .about-program .img-one img,
+    .section_information .about-program .img-two img {
+        width: 200px;
+    }
+}
+@media(max-width: 700px){
+    .section_information > .h1 {
+        margin: 100px 0 40px 0;
+     }
+     .section_information > .h2 {
+        text-align: center;
+        margin: 50px 0;
+    }
+    .section_information .how-do-we-work {
+        grid-template-columns: repeat(1, auto);
+        justify-content: center;
+        
+        grid-gap: 10px;
+    }
+    .section_information .how-do-we-work .desc-text {
+        padding-bottom:30px;
+    }
+    .section_information .about-program {
+        display: block;
+    }
+    .immigration_programs_content .main_title {
+        font-size: 40px;
+    }
+    .immigration_programs_content .display-grid .grid-item h3 {
+        font-size: 1.1em;
+        font-weight: 700 !important;   
+    }
+
+    .header .head_content li img {
+        width: 40%;
+    }
+    .header .left .phone {
+        padding: 0 10px 0 0px;
+        font-size: 14px;
+        
+    }
+    .header .right {    
+        padding: 5px 0;
+    }
+    .header .email {
+        padding: 0 10px 0 0px;
+        font-size: 14px;
+        
+    }
+    .introduction .bgc_img img {
+        position: absolute;
+        height: 100vh;
+        top: 125px;
+        left: 0;
+        object-fit: cover;
+        z-index: -1;
+    }
+    .introduction .content .header_text .h1 {
+        margin: 20px 0 0 0;
+    }
+    .how_do_we_work .grid_item .grid_h1 {
+        margin: 10px 0 0 0;
+
+    }
+    .immigration_programs_content .display-grid .grid-item img {
+        max-width: 100%;
+    }
+    .eu_bgc_image .content .h1 {
+        font-family: Montserrat;
+        font-weight: 600;
+        font-size: 30px;
+        padding: 100px 0 25px 0;
+        color: #fff;
+    }
+    .eu_bgc_image .content .h2 {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 20px;
+        color: #fff;
+        max-width: 100%;
+    }
+    .main-content .first-block p:first-child {
+        margin: 20px 0;
+    }   
+    
+    
+
+}
+@media (max-width:500px) {
+    .about_way_to_the_world {
+        margin: 50px 0 0 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, auto);
+        grid-gap: 50px ;   
+    }
+    .about_way_to_the_world .grid_item {
+        max-width: 100%;
+        text-align: center;
+    }
+    .section_information .how-do-we-work {
+        margin: 0 0 50px 0;
+    }
+    .about_first_block .content .h1 {
+        font-size: 35px;
+    }
+    .about_first_block .content .banner_block .banner_text_block {
+        margin: 20px 0 0 0;
+    }
+    .about_first_block .content .workers_block .workers_text_block {
+        margin: 20px 0 0 0;
+    }
+    .about_first_block .container {
+        padding: 0 15px;
+    }
+    .about_first_block .content {
+        background-color: #fff;
+        
+    }
+    .contacts_block .head {
+        display: block;
+    }
+    .contacts_block {
+        margin: 0;
+    }
+    .immigration_programs_content {
+        margin: 0 !important;
+    }
+    .immigration_programs_content .main_title {
+        font-size: 30px;
+        margin: 30px 0 ;
+    }
+ }
+
+@media(max-width:450px){
+    .top-head {
+        display: none;
+    }
+    
+    .introduction .bgc_img img {
+        position: absolute;
+        max-width: 100%;
+        top: 80px !important;
+        left: 0;
+        object-fit: cover;
+        z-index: -1;
+    }
+    .navbar-brand {
+        font-size: 30px;
+        
+    }
+    
+    .footer_third_content .content a {
+        font-size: 14px;
+    }
+
+
+    .popular_programs .display_grid .grid_item > img {
+        max-width: 300px;
+    }
+}
+ 
