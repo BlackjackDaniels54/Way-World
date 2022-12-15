@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Montserrat:wght@500&display=swap');
+.about_first_block .content {
+    background-color: rgba(217, 217, 217, 0.28);
+    padding: 30px 20px;
+}
+.about_first_block .content .h1 {
+    color: #303E87;
+    letter-spacing: 1px;
+    font-size: 50px;
+    margin: 20px 0 30px 0;
+}
+
+.about_first_block .content .workers_block {
+    display: flex;
+    justify-content: space-between;
+}
+.about_first_block .content .workers_block .workers_text_block {
+    max-width: 500px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 300;
+}
+.about_first_block .content .workers_block .img img {
+    max-width: 700px;
+}
+.about_first_block .content .banner_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.about_first_block .content .banner_block .banner_text_block {
+    max-width: 500px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 300;
+}
+.about_first_block .content .banner_block .img img {
+    max-width: 400px;
+    object-fit: cover;
+}
+
+
+.contacts_block .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 100px;
+}
+.contacts_block .head .contact {
+    font-size: 45px;
+    font-weight: 400;
+    color: #303E87;
+}
+.contacts_block .head .london , .praha {
+    font-size: 30px;
+    font-weight: 400;
+    color: #303E87;
+}
+
+.contacts_block {
+    margin: 50px 0 0 0;
+}
+.contacts_block .contacts-grid {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-gap: 30px 0;
+    margin: 70px 0 0 0;
+}
+.contacts_block .contacts-grid .grid-item .h1 {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 500;
+}
+.contacts_block .contacts-grid .grid-item .h2 {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.contacts_block .contacts-grid .grid-item .h3 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 300;
+}
+
